@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. Sebastian's College - Kandana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'college-blue': '#1A3B5C',
+                        'college-accent': '#4A90E2',
+                        'college-light': '#F0F4F8'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-college-light text-gray-800 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-college-blue text-white sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">St. Sebastian's College</div>
+            <div class="space-x-6">
+                <a href="#about" class="hover:text-college-accent transition">About</a>
+                <a href="#programs" class="hover:text-college-accent transition">Programs</a>
+                <a href="#activities" class="hover:text-college-accent transition">Activities</a>
+                <a href="#contact" class="hover:text-college-accent transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-br from-college-blue to-college-accent text-white py-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-extrabold mb-6">Empowering Minds, Shaping Futures</h1>
+            <p class="text-xl max-w-2xl mx-auto mb-8">A premier educational institution in Kandana committed to academic excellence and holistic development.</p>
+            <a href="#programs" class="bg-white text-college-blue px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition">Explore Programs</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto py-16 px-4">
+        <h2 class="text-4xl font-bold text-center mb-12 text-college-blue">About St. Sebastian's College</h2>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <p class="text-lg mb-6">Founded with a vision to provide comprehensive education, St. Sebastian's College stands as a beacon of learning and personal growth in Kandana.</p>
+                <ul class="space-y-4">
+                    <li class="flex items-center">
+                        <svg class="w-6 h-6 text-college-accent mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        Rich Academic Heritage
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-6 h-6 text-college-accent mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                        Comprehensive Educational Programs
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-6 h-6 text-college-accent mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                        Diverse Extracurricular Activities
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg p-8 border-l-4 border-college-accent">
+                <h3 class="text-2xl font-semibold mb-4 text-college-blue">Our Mission</h3>
+                <p class="italic text-gray-600">"To nurture young minds, foster critical thinking, and prepare students for global challenges through comprehensive and innovative education."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="bg-white py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-college-blue">Academic Programs</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-college-light p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold mb-4 text-college-blue">Science Stream</h3>
+                    <p>Comprehensive science education with advanced laboratory facilities and research opportunities.</p>
+                </div>
+                <div class="bg-college-light p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold mb-4 text-college-blue">Commerce Stream</h3>
+                    <p>Robust business and economic studies preparing students for global financial landscapes.</p>
+                </div>
+                <div class="bg-college-light p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold mb-4 text-college-blue">Arts Stream</h3>
+                    <p>Creative and analytical programs fostering critical thinking and artistic expression.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="container mx-auto py-16 px-4">
+        <h2 class="text-4xl font-bold text-center mb-12 text-college-blue">Student Activities</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="text-4xl mb-4 text-college-accent">🎺</div>
+                <h3 class="font-semibold mb-2">Brass Band</h3>
+                <p class="text-sm">Renowned musical ensemble</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="text-4xl mb-4 text-college-accent">🏆</div>
+                <h3 class="font-semibold mb-2">Sports</h3>
+                <p class="text-sm">Inter-school competitions</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="text-4xl mb-4 text-college-accent">🎭</div>
+                <h3 class="font-semibold mb-2">Drama Club</h3>
+                <p class="text-sm">Annual theatrical productions</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="text-4xl mb-4 text-college-accent">🤝</div>
+                <h3 class="font-semibold mb-2">Cadet Corps</h3>
+                <p class="text-sm">Leadership and discipline training</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-college-blue text-white py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="max-w-2xl mx-auto bg-white/10 backdrop-blur-sm p-8 rounded-lg">
+                <form class="space-y-6">
+                    <input type="text" placeholder="Your Name" class="w-full p-3 rounded bg-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-college-accent">
+                    <input type="email" placeholder="Your Email" class="w-full p-3 rounded bg-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-college-accent">
+                    <textarea placeholder="Your Message" rows="4" class="w-full p-3 rounded bg-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-college-accent"></textarea>
+                    <button class="w-full bg-college-accent text-white py-3 rounded-full hover:bg-blue-600 transition">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 St. Sebastian's College, Kandana. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
